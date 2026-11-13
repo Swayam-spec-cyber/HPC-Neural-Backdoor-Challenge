@@ -1,0 +1,17 @@
+Scenario,Method,AUROC,F1,TPR,FPR,Accuracy
+Attack A: Patch Trigger (Sparsity/Cache Shift),2024 Baseline: Standard GMM,1.0,0.9756,1.0,0.05,0.975
+Attack A: Patch Trigger (Sparsity/Cache Shift),2024 Baseline: Isolation Forest,0.9978,0.9783,0.9875,0.0312,0.9781
+Attack A: Patch Trigger (Sparsity/Cache Shift),2024 Baseline: One-Class SVM,1.0,0.9846,1.0,0.0312,0.9844
+Attack A: Patch Trigger (Sparsity/Cache Shift),Proposed: MICE-CAD v3 (Ours),1.0,0.9907,1.0,0.0187,0.9906
+Attack B: Stealthy Blended Trigger (Low-Amp),2024 Baseline: Standard GMM,0.9956,0.9598,0.9687,0.05,0.9594
+Attack B: Stealthy Blended Trigger (Low-Amp),2024 Baseline: Isolation Forest,0.9658,0.75,0.6187,0.0312,0.7937
+Attack B: Stealthy Blended Trigger (Low-Amp),2024 Baseline: One-Class SVM,0.9878,0.9423,0.9187,0.0312,0.9437
+Attack B: Stealthy Blended Trigger (Low-Amp),Proposed: MICE-CAD v3 (Ours),0.9968,0.9684,0.9562,0.0187,0.9688
+Attack C: Pure Coupling Break (Same Marginals),2024 Baseline: Standard GMM,0.7526,0.5882,0.4375,0.05,0.6937
+Attack C: Pure Coupling Break (Same Marginals),2024 Baseline: Isolation Forest,0.6787,0.2162,0.125,0.0312,0.5469
+Attack C: Pure Coupling Break (Same Marginals),2024 Baseline: One-Class SVM,0.7631,0.5897,0.4312,0.0312,0.7
+Attack C: Pure Coupling Break (Same Marginals),Proposed: MICE-CAD v3 (Ours),0.7698,0.5887,0.425,0.0187,0.7031
+Attack D: Adaptive Minor-Subspace Trigger,2024 Baseline: Standard GMM,0.9236,0.7126,0.5812,0.05,0.7656
+Attack D: Adaptive Minor-Subspace Trigger,2024 Baseline: Isolation Forest,0.8117,0.2723,0.1625,0.0312,0.5656
+Attack D: Adaptive Minor-Subspace Trigger,2024 Baseline: One-Class SVM,0.8428,0.7059,0.5625,0.0312,0.7656
+Attack D: Adaptive Minor-Subspace Trigger,Proposed: MICE-CAD v3 (Ours),0.9421,0.7216,0.575,0.0187,0.7781
